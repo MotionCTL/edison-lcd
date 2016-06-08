@@ -25,7 +25,7 @@
 #include "ssd1308.hpp"
 
 #define DEVICE_ADDRESS    0x3C
-#define BUS_NUMBER        0x0
+#define BUS_NUMBER        0x6
 
 static uint8_t intel_logo[] = {
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

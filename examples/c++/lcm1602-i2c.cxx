@@ -28,7 +28,7 @@ int
 main(int argc, char **argv)
 {
 //! [Interesting]
-    upm::Lcm1602* lcd = new upm::Lcm1602(0, 0x27);
+    upm::Lcm1602* lcd = new upm::Lcm1602(6, 0x27);
     lcd->setCursor(0,0);
     lcd->write("Hello World");
 //! [Interesting]
