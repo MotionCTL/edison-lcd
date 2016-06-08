@@ -25,7 +25,7 @@
 import time, signal, sys
 import pyupm_i2clcd as upmLCD
 
-myLCD = upmLCD.SSD1308(0, 0x3C);
+myLCD = upmLCD.SSD1308(6, 0x3C);
 
 logoArr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 128, 128, 128, 192, 192, 192, 224,

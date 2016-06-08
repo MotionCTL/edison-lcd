@@ -28,7 +28,7 @@
 //Load i2clcd module
 var LCD = require('jsupm_i2clcd');
 
-var myLcd = new LCD.SSD1308 (0, 0x3C);
+var myLcd = new LCD.SSD1308 (6, 0x3C);
 
 var logoArr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 128, 128, 128, 192, 192, 192, 224,
